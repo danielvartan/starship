@@ -22,7 +22,3 @@ Designed for use with [Ghostty](https://github.com/danielvartan/ghostty). 👻
 1. Copy `starship.toml` to `$HOME/.config`.
 
 That's it!
-
-## Resources
-
-- [Ulauncher Color Themes](https://gist.github.com/gornostal/02a232e6e560da7946c053555ced6cce)
