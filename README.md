@@ -11,11 +11,12 @@ My [Starship](https://starship.rs/) theme. 🛸
 
 Designed for use with [Ghostty](https://github.com/danielvartan/ghostty). 👻
 
+![](images/2025-07-07-18-10-27.png)
+
 ## Inspirations
 
 - [Starship's Gruvbox Rainbow Preset](https://starship.rs/presets/gruvbox-rainbow)
-- [Apple's Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
-- [Rosé Pine Ulauncher theme](https://github.com/rose-pine/ulauncher)
+- [Catppuccin](https://catppuccin.com/)
 
 ## Installation
 
