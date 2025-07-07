@@ -14,7 +14,7 @@ Designed for use with [Ghostty](https://github.com/danielvartan/ghostty). 👻
 ## Inspirations
 
 - [Starship's Gruvbox Rainbow Preset](https://starship.rs/presets/gruvbox-rainbow)
-- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
+- [Apple's Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
 - [Rosé Pine Ulauncher theme](https://github.com/rose-pine/ulauncher)
 
 ## Installation

@@ -1,12 +1,12 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[](gray_5)\
+[](crust)\
 $os\
 $username\
-[](bg:orange fg:gray_5)\
+[](bg:peach fg:crust)\
 $directory\
-[](fg:orange bg:green)\
+[](fg:peach bg:green)\
 $git_branch\
 $git_status\
 [](fg:green bg:blue)\
@@ -21,45 +21,50 @@ $kotlin\
 $haskell\
 $python\
 $rlang\
-[](fg:blue bg:purple)\
+[](fg:blue bg:mauve)\
 $docker_context\
 $conda\
 $pixi\
-[](fg:purple bg:gray_2)\
+[](fg:mauve bg:overlay_0)\
 $time\
-[ ](fg:gray_2)\n \
-[󱞪](fg:white) \
+[ ](fg:overlay_0)\n \
+[󱞪](fg:text) \
 """
 
-# https://developer.apple.com/design/
-# human-interface-guidelines/color
-palette = "apple_dark"
+# https://catppuccin.com/palette/
+palette = "catppuccin_macchiato"
 
-[palettes.apple_dark]
-red = "#ffs0045"
-orange = "#ff8b2a"
-yellow = "#ffde00"
-green = "#00e151"
-mint = "#00e4c1"
-teal = "#00d7e0"
-cyan = "#00d3ff"
-blue = "#007eff"
-indigo = "#8500ff"
-purple = "#ff00f5"
-pink = "#ff005f"
-brown = "#c28864"
-gray_1 = "#8d8c92"
-gray_2 = "#636366"
-gray_3 = "#4a494b"
-gray_4 = "#3d3c3e"
-gray_5 = "#303032"
-gray_6 = "#222123"
-white = "#ffffff"
-black = "#000000"
+[palettes.catppuccin_macchiato]
+rosewater = "#f4dbd6"
+flamingo = "#f0c6c6"
+pink = "#f5bde6"
+mauve = "#c6a0f6"
+red = "#ed8796"
+maroon = "#ee99a0"
+peach = "#f5a97f"
+yellow = "#eed49f"
+green = "#a6da95"
+teal = "#8bd5ca"
+sky = "#91d7e3"
+sapphire = "#7dc4e4"
+blue = "#8aadf4"
+lavender = "#b7bdf8"
+text = "#cad3f5"
+subtext_1 = "#b8c0e0"
+subtext_0 = "#a5adcb"
+overlay_2 = "#939ab7"
+overlay_1 = "#8087a2"
+overlay_0 = "#6e738d"
+surface_2 = "#5b6078"
+surface_1 = "#494d64"
+surface_0 = "#363a4f"
+base = "#24273a"
+mantle = "#1e2030"
+crust = "#181926"
 
 [os]
 disabled = false
-style = "bg:gray_5 fg:white"
+style = "bg:crust fg:text"
 
 [os.symbols]
 Windows = "󰍲"
@@ -86,12 +91,12 @@ Pop = ""
 
 [username]
 show_always = true
-style_user = "bg:gray_5 fg:white"
-style_root = "bg:gray_5 fg:white"
+style_user = "bg:crust fg:text"
+style_root = "bg:crust fg:text"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:white bg:orange"
+style = "fg:crust bg:peach"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -106,85 +111,85 @@ truncation_symbol = "…/"
 [git_branch]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol $branch ](bg:green fg:white)]($style)'
+format = '[[ $symbol $branch ](bg:green fg:crust)]($style)'
 
 [git_status]
 style = "bg:green"
-format = '[[($all_status$ahead_behind )](bg:green fg:white)]($style)'
+format = '[[($all_status$ahead_behind )](bg:green fg:crust)]($style)'
 
 [nodejs]
 symbol = ""
 style = "bg:blue"
-format = '[[ $symbol( $version) ](fg:white bg:blue)]($style)'
+format = '[[ $symbol( $version) ](fg:crust bg:blue)]($style)'
 
 [c]
 symbol = " "
 style = "bg:blue"
-format = '[[ $symbol( $version) ](fg:white bg:blue)]($style)'
+format = '[[ $symbol( $version) ](fg:crust bg:blue)]($style)'
 
 [cpp]
 symbol = " "
 style = "bg:blue"
-format = '[[ $symbol( $version) ](fg:white bg:blue)]($style)'
+format = '[[ $symbol( $version) ](fg:crust bg:blue)]($style)'
 
 [rust]
 symbol = ""
 style = "bg:blue"
-format = '[[ $symbol( $version) ](fg:white bg:blue)]($style)'
+format = '[[ $symbol( $version) ](fg:crust bg:blue)]($style)'
 
 [golang]
 symbol = ""
 style = "bg:blue"
-format = '[[ $symbol( $version) ](fg:white bg:blue)]($style)'
+format = '[[ $symbol( $version) ](fg:crust bg:blue)]($style)'
 
 [php]
 symbol = ""
 style = "bg:blue"
-format = '[[ $symbol( $version) ](fg:white bg:blue)]($style)'
+format = '[[ $symbol( $version) ](fg:crust bg:blue)]($style)'
 
 [java]
 symbol = ""
 style = "bg:blue"
-format = '[[ $symbol( $version) ](fg:white bg:blue)]($style)'
+format = '[[ $symbol( $version) ](fg:crust bg:blue)]($style)'
 
 [kotlin]
 symbol = ""
 style = "bg:blue"
-format = '[[ $symbol( $version) ](fg:white bg:blue)]($style)'
+format = '[[ $symbol( $version) ](fg:crust bg:blue)]($style)'
 
 [haskell]
 symbol = ""
 style = "bg:blue"
-format = '[[ $symbol( $version) ](fg:white bg:blue)]($style)'
+format = '[[ $symbol( $version) ](fg:crust bg:blue)]($style)'
 
 [python]
 symbol = ""
 style = "bg:blue"
-format = '[[ $symbol( $version) ](fg:white bg:blue)]($style)'
+format = '[[ $symbol( $version) ](fg:crust bg:blue)]($style)'
 
 [rlang]
 symbol = ""
 style = "bg:blue"
-format = '[[ $symbol( $version) ](fg:white bg:blue)]($style)'
+format = '[[ $symbol( $version) ](fg:crust bg:blue)]($style)'
 
 [docker_context]
 symbol = ""
-style = "bg:purple"
-format = '[[ $symbol( $context) ](fg:#white bg:purple)]($style)'
+style = "bg:mauve"
+format = '[[ $symbol( $context) ](fg:#text bg:mauve)]($style)'
 
 [conda]
-style = "bg:purple"
-format = '[[ $symbol( $environment) ](fg:#white bg:purple)]($style)'
+style = "bg:mauve"
+format = '[[ $symbol( $environment) ](fg:#text bg:mauve)]($style)'
 
 [pixi]
-style = "bg:purple"
-format = '[[ $symbol( $version)( $environment) ](fg:white bg:purple)]($style)'
+style = "bg:mauve"
+format = '[[ $symbol( $version)( $environment) ](fg:crust bg:mauve)]($style)'
 
 [time]
 disabled = false
 time_format = "%R"
-style = "bg:gray_2"
-format = '[[  $time ](fg:white bg:gray_2)]($style)'
+style = "bg:overlay_0"
+format = '[[  $time ](fg:text bg:overlay_0)]($style)'
 
 [line_break]
 disabled = false
@@ -194,6 +199,6 @@ disabled = false
 success_symbol = '[](bold fg:green)'
 error_symbol = '[](bold fg:red)'
 vimcmd_symbol = '[](bold fg:green)'
-vimcmd_replace_one_symbol = '[](bold fg:purple)'
-vimcmd_replace_symbol = '[](bold fg:purple)'
+vimcmd_replace_one_symbol = '[](bold fg:mauve)'
+vimcmd_replace_symbol = '[](bold fg:mauve)'
 vimcmd_visual_symbol = '[](bold fg:yellow)'

@@ -1,0 +1,26 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# https://developer.apple.com/design/human-interface-guidelines/color
+palette = "apple_dark"
+
+[palettes.apple_dark]
+red = "#ff0045"
+orange = "#ff8b2a"
+yellow = "#ffde00"
+green = "#00e151"
+mint = "#00e4c1"
+teal = "#00d7e0"
+cyan = "#00d3ff"
+blue = "#007eff"
+indigo = "#8500ff"
+purple = "#ff00f5"
+pink = "#ff005f"
+brown = "#c28864"
+gray_1 = "#8d8c92"
+gray_2 = "#636366"
+gray_3 = "#4a494b"
+gray_4 = "#3d3c3e"
+gray_5 = "#303032"
+gray_6 = "#222123"
+white = "#ffffff"
+black = "#000000"
