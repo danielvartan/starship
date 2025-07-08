@@ -15,8 +15,9 @@ Designed for use with [Ghostty](https://github.com/danielvartan/ghostty). 👻
 
 ## Inspirations
 
-- [Starship's Gruvbox Rainbow Preset](https://starship.rs/presets/gruvbox-rainbow)
 - [Catppuccin](https://catppuccin.com/)
+- [Rosé Pine Starship Theme](https://github.com/rose-pine/starship)
+- [Starship's Gruvbox Rainbow Preset](https://starship.rs/presets/gruvbox-rainbow)
 
 ## Installation
 
