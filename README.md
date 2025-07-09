@@ -13,7 +13,7 @@ Designed for use with [Ghostty](https://github.com/danielvartan/ghostty). 👻
 
 ![](images/2025-07-07-18-10-27.png)
 
-## Inspirations
+## Inspiration
 
 - [Catppuccin](https://catppuccin.com/)
 - [Rosé Pine Starship Theme](https://github.com/rose-pine/starship)
@@ -21,6 +21,16 @@ Designed for use with [Ghostty](https://github.com/danielvartan/ghostty). 👻
 
 ## Installation
 
-1. Copy `starship.toml` to `$HOME/.config`.
+> For Linux! 🐧
 
-That's it!
+1. Clone the repository:
+
+```bash
+git clone https://github.com/danielvartan/starship $HOME/.config/starship
+```
+
+2. Create a symlink to the `starship.toml` file:
+
+```bash
+ln -s $HOME/.config/starship/starship.toml $HOME/.config/starship.toml
+```
